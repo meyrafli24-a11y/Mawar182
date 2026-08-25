@@ -17,8 +17,7 @@ spinBtn.addEventListener("click", () => {
 
     setTimeout(() => {
         // Pilih angka hasil
-        const angka = Math.floor(Math.random() * 8) + 1;
-
+        const angka = [5, 10, 15, 20][Math.floor(Math.random() * 4)];
         result.textContent = "Hasil: " + angka;
 
         // Tambah poin
